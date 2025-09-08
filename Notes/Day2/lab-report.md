@@ -13,37 +13,44 @@ To learn how to create, edit, read, and protect files in Linux. The goal was to 
 ## Steps Taken
 
 1. Created a new folder for the lab:  
+
    ```bash
    mkdir day2lab
    cd day2lab
 
-2. Created a file named `treasure.txt`:  
+2. Created a file named `treasure.txt`:
+  
    ```bash
    touch treasure.txt
 
 3. Edited the file using `nano treasure.txt` and wrote:
+
     ```csharp
     The treasure is hidden under the castle.
 
 4. Read the file with:
+
     ```bash
     cat treasure.txt
 
 5. Listed details with:
+
     ```bash
     ls -l
 
-    This showed default permissions `-rw-r--r--`.
+  This showed default permissions `-rw-r--r--`.
 
 6. Changed permissions with:
+
     ```bash
     chmod 600 treasure.txt
 
 7. Verified with:
+
     ```bash
     ls -l
 
-    Now only the file owner could read/write it.
+  Now only the file owner could read/write it.
 
 ---
 
