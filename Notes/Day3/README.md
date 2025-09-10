@@ -20,6 +20,6 @@
 ---
 
 ## Deliverables
-- [Lab Report](LAB_REPORT.md)  
-- [CLI Screenshot](images/cli.png)  
-- [GUI Screenshot](images/gui.png)  
+- [Lab Report](lab-report.md)  
+- [CLI Screenshot](images/CLI.png)  
+- [GUI Screenshot](images/GUI.png)  
