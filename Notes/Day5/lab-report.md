@@ -19,7 +19,7 @@ To understand the fundamentals of networking in Linux by exploring IP addresses,
 
   ```bash
   ip a
-  
+  ``` 
 Observed the `inet` field to identify my VM’s IP (redacted for safety as `192.168.xxx.xxx`).
 
 ---
