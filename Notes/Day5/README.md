@@ -23,7 +23,7 @@
 ## Deliverables  
 
 - [Lab Report](lab-report.md)  
-- [CLI Screenshot 1](images/cli_1.png)  
-- [CLI Screenshot 2](images/cli_2.png)
-- [CLI Screenshot 3](images/cli_3.png)
+- ![CLI Screenshot 1](images/cli_1.png)  
+- ![CLI Screenshot 2](images/cli_2.png)
+- ![CLI Screenshot 3](images/cli_3.png)
 
