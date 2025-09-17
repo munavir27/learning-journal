@@ -11,15 +11,15 @@ To understand the fundamentals of networking in Linux by exploring IP addresses,
 
 ---
 
-## Steps Taken  
+## Steps Taken  :
 
 ### Part 1 – Discovering My Network Identity 
 
 1. Found local IP address:  
 
-  ```bash
-  ip a
-  ``` 
+    ```bash
+    ip a
+ 
 Observed the `inet` field to identify my VM’s IP (redacted for safety as `192.168.xxx.xxx`).
 
 ---
@@ -28,15 +28,15 @@ Observed the `inet` field to identify my VM’s IP (redacted for safety as `192.
 
 1. Sent packets to Google’s DNS server:
 
-  ```bash
-  ping 8.8.8.8 -c 4
+    ```bash
+    ping 8.8.8.8 -c 4
 
 Confirmed replies, packet counts, and round-trip times.
 
 2. Tested connectivity to a domain:
 
-  ```bash
-  ping google.com -c 4
+    ```bash
+    ping google.com -c 4
 
 Verified DNS resolution and packet responses.
 
@@ -46,8 +46,8 @@ Verified DNS resolution and packet responses.
 
 1. Resolved a hostname to an IP:
 
-  ```bash
-  nslookup github.com
+    ```bash
+    nslookup github.com
 
 Learned that DNS servers translate human-readable names into IP addresses.
 
@@ -57,8 +57,8 @@ Learned that DNS servers translate human-readable names into IP addresses.
 
 1. Traced packet journey to OpenAI:
 
-  ```bash
-  traceroute openai.com
+    ```bash
+    traceroute openai.com
 
 
 Observed multiple hops (routers) my packets crossed to reach the destination.
@@ -69,8 +69,8 @@ Observed multiple hops (routers) my packets crossed to reach the destination.
 
 1. Listed listening services on my VM:
 
-  ```bash
-  netstat -tuln
+    ```bash
+    netstat -tuln
 
 Identified which ports were open and what services were bound to them.
 
